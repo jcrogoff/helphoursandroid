@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Helphours</string>
+
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="title_activity_student__look__requests_">Student_Look_Requests_Activity</string>
+    <string name="dummy_button">Dummy Button</string>
+    <string name="dummy_content">DUMMY\nCONTENT</string>
+    <string name="title_activity_tf__look__requests_">TF_Look_Requests_Activity</string>
+    <string name="title_activity_request__help_">Request_Help_Activity</string>
+</resources>

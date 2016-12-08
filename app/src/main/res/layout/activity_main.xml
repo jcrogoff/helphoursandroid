@@ -1,0 +1,47 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:background="@drawable/background"
+    tools:context=".MainActivity">
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="TF Look"
+        android:id="@+id/tfLookButton"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:background="@drawable/button"
+        android:layout_alignParentBottom="true"
+        android:layout_alignLeft="@+id/studentLookButton"
+        android:layout_alignStart="@+id/studentLookButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Student Look"
+        android:id="@+id/studentLookButton"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:background="@drawable/button"
+        android:layout_centerVertical="true"
+        android:layout_alignLeft="@+id/helpRequestButton"
+        android:layout_alignStart="@+id/helpRequestButton" />
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Request for Help"
+        android:id="@+id/helpRequestButton"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:fontFamily="casual"
+        android:background="@drawable/button"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true" />
+</RelativeLayout>
